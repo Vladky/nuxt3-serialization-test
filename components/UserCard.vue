@@ -7,7 +7,7 @@
       Фамилия: <strong>{{ modelValue.surname }}</strong>
     </p>
     <p>
-      Имя и фаимлия (геттер): <strong>{{ modelValue.fullName }}</strong>
+      Имя и фамилия (геттер): <strong>{{ modelValue.fullName }}</strong>
     </p>
   </div>
 </template>

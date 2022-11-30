@@ -9,10 +9,9 @@ const delay = (time: number) =>
   new Promise(resolve => setTimeout(resolve, time))
 
 export class UserService {
-  private counter = 1
-  async get() {
+  async get(index: number) {
     await delay(1000)
-    this.counter++
-    return mock[this.counter % 2]
+
+    return mock[index]
   }
 }

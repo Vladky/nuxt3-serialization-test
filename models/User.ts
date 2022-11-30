@@ -13,7 +13,7 @@ export class User implements UserLike {
     return `${this.name} ${this.surname}!`
   }
 
-  static fromJSON(data: any) {
+  static fromJSON(data: UserLike) {
     return new User(data.name, data.surname)
   }
 }
